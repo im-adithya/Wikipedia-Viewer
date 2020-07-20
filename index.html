@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Search Bar</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <input type="text" id='box' placeholder="">
+        <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 50 50"><path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path></svg>
+        <svg id= "cross" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 30 30">    <path d="M15,3C8.373,3,3,8.373,3,15c0,6.627,5.373,12,12,12s12-5.373,12-12C27,8.373,21.627,3,15,3z M19.743,20h-2.862l-1.899-3.167 H14.85L12.938,20h-2.703l3.07-5.045L10.242,10h2.966l1.795,3.312h0.132L16.943,10h2.827l-3.195,4.983L19.743,20z"></path></svg>
+        <span id='remove'>Click to search</span>
+    </div>
+    <header>Wikipedia Viewer</header>
+    <div id="items">
+        Find articles on Wikipedia!<br><span>Don't want to? Well.. I have a <a href="https://en.wikipedia.org/wiki/Special:Random">random article</a> for you!</span>
+    </div>
+    <div id="realitems" class="displayremover"></div>
+    <footer>&copy The_Hyperboy</footer>
+</body>
+<script src="app.js"></script>
+</html>
